@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="/js/registration.js"></script>
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Student Registration</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-left">
+            <div class="col-sm-6">
+                <h2 style="text-align: center;">Student Registry</h2>
+                <div id="design">
+                    <form action="/nothing.php">
+                        <label for="First Name">First Name</label>
+                        <input type="name" id="fname" name="firstname" placeholder="Type your first name.."><br>
+
+                        <label for="lname">Last Name</label>
+                        <input type="name" id="lname" name="lastname" placeholder="Type your last name.."><br>
+
+                        <label for="dob">Date of Birth</label><br>
+                        <select name="month" id="dobmonth">
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                        <select name="day" id="dobday">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <input type="year" id="dobyear" name="birthyear" placeholder="2022">
+                        <br>
+
+                        <label for="contact">Contact Info</label><br>
+
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="youremail" placeholder="Enter your Email address.."><br>
+
+                        <label for="phone">Phone</label><br>
+                        <input type="phone" id="homep" name="homephone" placeholder="Home Phone"><br>
+                        <input type="phone" id="mobilep" name="mobilephone" placeholder="Mobile Phone"><br>
+                        <input type="phone" id="addp" name="addphone" placeholder="Additional Phone"><br>
+
+                        <label for="address">Address</label><br>
+                        <input type="address" id="housenum" name="housenum" placeholder="Address Line 1"><br>
+                        <input type="address" id="apptnum" name="apptnum" placeholder="Address Line 2"><br>
+                        <input type="address" id="city" name="city" placeholder="City">
+
+                        <label for="State">State</label>
+                        <select name="state" id="state">
+                            <option selected>Choose...</option>
+                            <option>Alabama </option>
+                            <option>Alaska </option>
+                            <option>Arkansas</option>
+                            <option>Arizona</option>
+                            <option>California</option>
+                            <option>Colorado</option>
+                            <option>Connecticut</option>
+                            <option>Delaware</option>
+                            <option>Florida</option>
+                            <option>Georgia</option>
+                            <option>Hawaii</option>
+                            <option>Idaho</option>
+                            <option>Illinois</option>
+                            <option>Indiana</option>
+                            <option>Iowa</option>
+                            <option>Kansas</option>
+                            <option>Kentucky</option>
+                            <option>Louisiana</option>
+                            <option>Maine</option>
+                            <option>Maryland</option>
+                            <option>Massachusetts</option>
+                            <option>Michigan</option>
+                            <option>Minnesota</option>
+                            <option>Mississippi</option>
+                            <option>Missouri</option>
+                            <option>Montana</option>
+                            <option>Nebraska</option>
+                            <option>Nevada</option>
+                            <option>New Hampshire</option>
+                            <option>New Jersey</option>
+                            <option>New Mexico</option>
+                            <option>New York</option>
+                            <option>North Carolina</option>
+                            <option>North Dakota</option>
+                            <option>Ohio</option>
+                            <option>Oklahoma</option>
+                            <option>Oregon</option>
+                            <option>Pennsylvania</option>
+                            <option>Rhode Island</option>
+                            <option>South Carolina</option>
+                            <option>South Dakota</option>
+                            <option>Tennessee</option>
+                            <option>Texas</option>
+                            <option>Utah</option>
+                            <option>Vermont</option>
+                            <option>Virginia</option>
+                            <option>Washington</option>
+                            <option>West Virginia</option>
+                            <option>Wisconsin</option>
+                            <option>Wyoming</option>
+                        </select>
+
+                        <input type="address" id="zipcode" name="zipcode" placeholder="Zip code"><br>
+
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option selected>Choose...</option>
+                            <option value="Australia">Australia</option>
+                            <option value="United States">United States</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                        </select><br>
+
+                        <input type="checkbox" name="tos" id="tos">
+                        <label for="tos">I accept the Terms of Service</label>
+
+                        <input type="button" value="Submit" onclick="showMsg()">
+
+                    </form>
+                </div>
+
+                <div id="show" class="showMsg"></div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
